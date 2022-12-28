@@ -23,13 +23,13 @@ $(() => {
     // find the child element who has "class" named "red"
     if( findSpan.find( "li" ).hasClass('red') == true ) 
     
-    // Then if true any of child has class "red" remove the class red
+    // Then if true any of child has class "red" remove the class red or remove last effects like animation for this because this is recent
     {  $( "li" ).removeClass('red'); } 
 
-    // Then next after this child was fresh clicked must be add class name "red"
+    // Then next after this child was fresh clicked must be add class name "red" // or run the animation for this child has been clicked
     let currentVal = $( this );
 
-       // addClass red
+       // addClass red or in otherhand do something on it
        currentVal.addClass('red');
     
   });         
