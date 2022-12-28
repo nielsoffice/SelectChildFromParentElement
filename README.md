@@ -7,7 +7,8 @@ Select Child from any element jQuery
 * Define: This function can able to select any active child and do something on it
 * for instance slider when any of the slide child has been clicked then can do something on it!
 * 
-* Or any div have child unpredictable to be selected but was selected the can do something!
+* Or any div have child unpredictable to be selected but was selected then can do something on it!
+* and remove last dom effect from recent child was clicked.
 * 
 */
 $(() => {
