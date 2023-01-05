@@ -38,3 +38,37 @@ $(() => {
 
 
 ```
+
+```JS
+
+// jQuery Defining function 
+// invoke function by itself
+jQuery(() => {
+
+  const performSlides = jQuery.fn.sliderDynamicPost = function() {  // do something };
+
+  setInterval(performSlides, 1000);
+
+});
+
+ // Ready function 
+ jQuery(function() {  // do something });
+ 
+ // inner function
+ jQuery.fn.sliderDynamicPost = function() { // do something };
+ 
+ // invoking for inner or simply function set function itself
+ jQuery(this).sliderDynamicPost();
+
+ // ex.
+ jQuery(function() {  
+    
+    // inner function
+    jQuery.fn.sliderDynamicPost = function() { // do something };
+ 
+    // invoking for inner or simply function set function itself
+    jQuery(this).sliderDynamicPost();
+
+  }
+
+```
